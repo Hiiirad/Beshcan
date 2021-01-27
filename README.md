@@ -22,14 +22,17 @@ I intentionally don't use any database for logging and error collecting; besides
 ## Usage
 :)
 
-## Sources
+## Resources
 1. DNS over HTTPS (DOH)
-    - [RFC 8484](https://tools.ietf.org/html/rfc8484)
-    - [Google Developers](https://developers.google.com/speed/public-dns/docs/doh)
+   - [RFC 8484](https://tools.ietf.org/html/rfc8484)
+   - [Google Developers](https://developers.google.com/speed/public-dns/docs/doh)
 2. DNS over TLS (DOT)
-    - [RFC 7858](https://tools.ietf.org/html/rfc7858)
-    - [RFC 8310: Usage Profiles for DOT](https://tools.ietf.org/html/rfc8310)
-    - [Google Developers](https://developers.google.com/speed/public-dns/docs/dns-over-tls)
+   - [RFC 7858](https://tools.ietf.org/html/rfc7858)
+   - [RFC 8310: Usage Profiles for DOT](https://tools.ietf.org/html/rfc8310)
+   - [Google Developers](https://developers.google.com/speed/public-dns/docs/dns-over-tls)
+3. Other
+   - [Using NGINX as a DoT or DoH Gateway](https://www.nginx.com/blog/using-nginx-as-dot-doh-gateway/)
+   - [How To Host Your Own DNS-over-HTTPS And DNS-over-TLS Services](https://blog.technitium.com/2020/07/how-to-host-your-own-dns-over-https-and.html)
 
 ## Contributing
 See [contributor's guide](./CONTRIBUTING.md) for more details.
