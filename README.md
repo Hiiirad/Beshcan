@@ -2,7 +2,7 @@
 
 This project came to my mind when I had a feeling that maybe some services like [shecan](https://shecan.ir/) have something more than just bypass sanctions in their mind. We don't know what they are logging from us in their servers right now, even with DNS over TLS; I can't feel safe. However, few recent weeks (from the start of July 2020), we have severe censorship over DNS in Iran, based on [OONI](https://ooni.org/post/2020-iran-dot/), we don't have privacy and freedom on the internet. The government censored lots of websites and services for Iranians; on the other hand, the USA sanctioned Iran on many international services. We're sitting ducks and can't do much about it.
 
-Don't forget that there is nothing we can't do :)
+**Don't forget that there is nothing we can't do :)**
 
 I came up with an idea after reading this tweet from [Iranian Offsec](https://twitter.com/offsecmag/status/1281320182313517058) about DNS over TLS/HTTPS, and this [article](https://arxiv.org/pdf/1906.09682.pdf) about DNS over Tor.
 
@@ -11,10 +11,11 @@ So let's talk about what I have in my mind. I want to make a **private DNS resol
 I intentionally don't use any database for logging and error collecting; besides, I will explicitly redirect every log or error to `/dev/null/` or disable any logging functions or services for users' data privacy.
 
 ## Tools used on this project
-- [ ] Docker and Kubernetes
-- [ ] Reverse Proxy with NGINX or Envoyproxy
-- [ ] Python or Go or Rust or C
-- [ ] Scapy for Packet Manipulation
+- [ ] Microservice Architecture
+   - [ ] Docker
+   - [ ] Kubernetes (K8s)
+- [ ] Python or Rust or Go or C
+- [ ] Scapy for Packet Manipulation (Python Library)
 
 ## Installation
 :)
